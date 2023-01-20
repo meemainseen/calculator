@@ -54,11 +54,11 @@ def calculator():
         operator = input("Type desired operation: ")
         if operator == "sqrt":
             result = operators[operator](num1)
-            print(f"{operand} {num1} = {result}")
+            print(f"{operator} {num1} = {result}")
         else:
             num2 = float(input("Input the next number: "))
             result = operators[operator](num1, num2)
-            print(f"{num1} {operand} {num2} = {result}")
+            print(f"{num1} {operator} {num2} = {result}")
         
         if (input("Continue calculations with answer? type 'y' or type 'n' to start a new calculation: ")) == "y":
             #For continuing calculation result value becomes the first number
