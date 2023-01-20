@@ -1,4 +1,4 @@
-'''simple calculator to perform basic arithmatic operations to include additon, subtraction, mulitplication, division
+'''simple calculator to perform basic arithmatic operations to include additon, subtraction, multiplication, division
 and a bit of caveat with square root and exponential '''
 
 from art import logo
